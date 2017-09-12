@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+## Welcome to CISC 5420 - Applied Statistics & Probability!
 
-You can use the [editor on GitHub](https://github.com/lpatruno/stats-fall17/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Lecture 1
+---
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Thank you for a very enjoyable discussion last night! I really enjoy teaching this course because of the way students are able to explore their interests through their personal projects. I'm looking forward to learning about a diverse range of topics through your projects!
 
-### Markdown
+As I mentioned in class, I will be using this site to post resources, links, lecture reviews, and homework assignments.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+During our first lecture we spent time discussing the course [syllabus](Syllabus.pdf), including the grading breakdown for the course and the midterm and final projects. We also spent time reviewing some of the visualizations in this [Kaggle kernel](https://www.kaggle.com/benhamner/python-data-visualizations). Reviewing Kaggle kernels is a great way to learn about different applied data analysis methods and visualizations. 
 
-```markdown
-Syntax highlighted code block
+Kaggle is also a great source of publically available [datasets](https://www.kaggle.com/datasets). This [Github repo](https://github.com/caesar0301/awesome-public-datasets) contains more datasets and [Amazon](https://aws.amazon.com/public-datasets/) and [Google](https://cloud.google.com/bigquery/public-data/) also host other datasets. I encourage each of you to look through these resource to find datasets for your term projects. Feel free to find other datasets or come up with your own by writing web scrapers. Here is a simple [tutorial](https://automatetheboringstuff.com/chapter11/) for how you might do that.
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+Your homework assignment for next class is as follows:
 
-1. Numbered
-2. List
+  1. Read the Preface and Chapter 1 of ThinkStats2. Please run through the code in the chapters. In order to do that you'll have to...
+  
+  2. Install [Anaconda](https://www.anaconda.com/download/) on your machines. We will be using Python 3.6 in this class.
+  
+  3. Work on exercise 1.3 in ThinkStats2. This asks you to think about a personal project. Part of your homework assignment for next class will be to submit a formal proposal for your midterm and final projects.
+  
+  4. Skim Chapter 1 of OpenStats. This chapter contains useful methods for performing exploratory data analysis of numerical and categorical data. You'll also get to read more about some of the visualizations we discussed in class yesterday.
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lpatruno/stats-fall17/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+If anyone has any questions, please feel free to email me!
