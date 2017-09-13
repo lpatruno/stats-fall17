@@ -1,5 +1,32 @@
 ## Welcome to CISC 5420 - Applied Statistics & Probability!
 
+### Lecture 2
+---
+This past week we began to dig into practical techniques for analyzing data. 
+
+First, we examined some useful ways of reading in and slicing through data using the Python package [pandas](http://pandas.pydata.org/pandas-docs/stable/). In order to demonstrate some of these techniques, I put together a simple Jupyter notebook, which you can access [here](lecture_2.ipynb). If you click on the link, you'll see the Jupyter notebook rendered directly in the browser, as if you were running the notebook on your own machine. In order to actually run the cells, though, you'll have to clone the repo and run the notebook on your own machine. If you haven't used Github before, here is a short [interactive tutorial](https://try.github.io/levels/1/challenges/1).
+
+We also spent some time examining a [**HarvardX	and	MITx: Four	Years	of	Open	Online	Courses**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2889436), a statistical analysis of four years worth of data on the EdX MOOC platform. Specifically, we discussed the format of the paper and several of the visualizations. Note how the authors put forth several important questions, provide brief answers to these questions, and support these answers with carefully arranged descriptive statistics and well thought out data visualizations. Spend some time going through other visualizations within the document. Do you see the points the authors are trying to make? Do you think the authors' claims are well evidenced?
+
+A few students mentioned difficulties with understanding the Python code. Allen Downey, the author of ThinkStats, has also written a textbook for learning Python 3 called [ThinkPython2e](http://greenteapress.com/wp/think-python-2e/). If you like the style of our textbook, I encourage you to check it out. Alternatively, check out this [interactive textbook](https://runestone.academy/runestone/static/thinkcspy/index.html). [Automate the Boring Stuff with python](https://automatetheboringstuff.com/) is also a fantastic resource for learning how to do some interesting things in Python, like [Sending Email and Text Messages](https://automatetheboringstuff.com/chapter16/).
+
+
+Your homework assignment for next class is as follows:
+
+  1. Read the Ch. 2 of ThinkStats2. Please run through the code in the chapters.
+  
+  2. If you haven't already done so, please read Ch. 1 of OpenStats. If you have read it, please skim through it again.
+  
+  3. Put together a proposal for your midterm and final project. I'd like you to propose *3* possible projects, each utilizing a different dataset. For each possible project, please include:
+      * A guiding research question you seek to answer.
+      * A dataset (or datasets) that you will analyze in order to answer the research question. If the dataset exists somewhere, please include a link to the dataset. If the dataset does not exist in a ready-to-use format, but you'd like to access data by writing a web scraper, polling an API, etc, please describe how you will do this.
+      * A description of the variables within your dataset.
+    
+Please email me this proposal before the start of class next week. 
+
+As always, email me with any questions!
+
+
 ### Lecture 1
 ---
 
