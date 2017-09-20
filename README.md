@@ -1,5 +1,17 @@
 ## Welcome to CISC 5420 - Applied Statistics & Probability!
 
+### Lecture 3
+---
+Yesterday we spent time speaking about different forms of exploratory data analysis. After discussing histograms, outliers, effect sizes, and summary statistics (and a few other things), we discussed a [Jupyter notebook](notebooks/Lecture%203.ipynb) I put together applying these ideas to an Austin bikeshare dataset. In that notebook I introduced a new Python library, [seaborn](https://seaborn.pydata.org/), which "provides a high-level interface for drawaing attractive statistical graphs."
+
+Your homework assignment for next class is as follows:
+
+  1. Read Ch. 3 of ThinkStats2. Please run through the code in the chapters.
+  
+  2. Read Ch. 2 of OpenStats except section 2.3.
+  
+As always, email me with any questions!
+
 ### Lecture 2
 ---
 This past week we began to dig into practical techniques for analyzing data. 
