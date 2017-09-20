@@ -2,7 +2,7 @@
 
 ### Lecture 3
 ---
-Yesterday we spent time speaking about different forms of exploratory data analysis. After discussing histograms, outliers, effect sizes, and summary statistics (and a few other things), we discussed a [Jupyter notebook](notebooks/Lecture%203.ipynb) I put together applying these ideas to an Austin bikeshare dataset. In that notebook I introduced a new Python library, [seaborn](https://seaborn.pydata.org/), which "provides a high-level interface for drawaing attractive statistical graphs."
+Yesterday we spent time speaking about different forms of exploratory data analysis. After discussing histograms, outliers, effect sizes, and summary statistics (and a few other things), we discussed a [Jupyter notebook](notebooks/Lecture%203.ipynb) I put together applying these ideas to an Austin bikeshare dataset. In that notebook I introduced a new Python library, [seaborn](https://seaborn.pydata.org/), which "provides a high-level interface for drawaing attractive statistical graphs." I recommend checking out some of the tutorials on the seaborn site, they're quite good.
 
 Your homework assignment for next class is as follows:
 
