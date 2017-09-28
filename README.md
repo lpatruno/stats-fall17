@@ -1,5 +1,17 @@
 ## Welcome to CISC 5420 - Applied Statistics & Probability!
 
+### Lecture 4
+---
+This week we introduced the concept of probability mass functions (PMFs). Whereas histograms map from values to integer counts, PMFs map from values to probabilities. These can be visualized as bar graphs or hollow histograms and are useful for comparing multiple distributions since PMFs account for differences in sample size. In this weeks [Jupyter notebook](notebooks/Lecture%204.ipynb), I gave a few examples of using PMFs to compare different distributions found within the Austin bikeshare dataset.
+
+Your homework assignment for next class is as follows:
+
+  1. Read Ch. 4 of ThinkStats2. Please run through the code in the chapters. Running through the code is not optional. It is a mandatory part of the assignment.
+  
+  2. If I've emailed you asking for further clarification on your research questions, please email me back with the clarifications I've requested. By this point, you should all be working on your midterm projects, which are due on October 24th. I will follow up with additional details about the project. At a high level, I will expect a Jupyter notebook containing analysis similar to the analysis encountered so far in the textbooks.
+  
+As always, email me with any questions!
+
 ### Lecture 3
 ---
 Yesterday we spent time speaking about different forms of exploratory data analysis. After discussing histograms, outliers, effect sizes, and summary statistics (and a few other things), we discussed a [Jupyter notebook](notebooks/Lecture%203.ipynb) I put together applying these ideas to an Austin bikeshare dataset. In that notebook I introduced a new Python library, [seaborn](https://seaborn.pydata.org/), which "provides a high-level interface for drawaing attractive statistical graphs." I recommend checking out some of the tutorials on the seaborn site, they're quite good.
