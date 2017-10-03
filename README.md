@@ -1,5 +1,11 @@
 ## Welcome to CISC 5420 - Applied Statistics & Probability!
 
+### Lecture 5
+---
+[Choosing histogram bins])(http://docs.astropy.org/en/stable/visualization/histogram.html)
+
+Be sure to add the midterm guidelines to the repo
+
 ### Lecture 4
 ---
 This week we introduced the concept of probability mass functions (PMFs). Whereas histograms map from values to integer counts, PMFs map from values to probabilities. These can be visualized as bar graphs or hollow histograms and are useful for comparing multiple distributions since PMFs account for differences in sample size. In this weeks [Jupyter notebook](notebooks/Lecture%204.ipynb), I gave a few examples of using PMFs to compare different distributions found within the Austin bikeshare dataset.
