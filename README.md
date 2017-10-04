@@ -2,9 +2,17 @@
 
 ### Lecture 5
 ---
-[Choosing histogram bins])(http://docs.astropy.org/en/stable/visualization/histogram.html)
+This week we focused on Cumulative Distribution Functions - functions that map from values to percentiles. First, we noted that we run into issues when plotting histograms for variables that contain many different values. Namely, histograms will be hard to interpret because it will be difficult to see the overall pattern. One way of getting around this is to discretize or *bin* our data. However, we are then tasked with picking appropriate bin sizes, which is not trivial. In order to pick bin sizes, data analysts typically try a range of bin sizes through trial-and-error (we mentioned more [principled techniques](http://docs.astropy.org/en/stable/visualization/histogram.html) in class).
 
-Be sure to add the midterm guidelines to the repo
+A better way to deal with this issue is to plot the CDF, which provides an informative visual representation of the shape of a distribution. Common values appear as steep or vertical sections of a CDF. If there are few values at a certain percentile, the CDF is flat in this range. CDFs are especially useful for comparing distributions, as plotting multiple CDFs on the same graph makes the shape of the distribution as well as differences more apparent. We generated some normally distributed test data and plotted the resulting CDF in [this week's notebook](notebooks/Lecture%205.ipynb).
+
+Your homework assignment for next class is as follows:
+
+  1. Read Ch. 5 of ThinkStats2. This is the most difficult material we will have encountered thus far. Pay particular attention to the author's description of how to determine if data is modeled by an analytic distribution. You will be required to use these methods in your projects. Please run through the code in the chapters. Running through the code is not optional. It is a mandatory part of the assignment.
+  
+  2. I've posted the [midterm rubric](midterm_rubric.pdf). Please refer to this document and ask me any questions you may have.
+
+As always, email me with any questions!
 
 ### Lecture 4
 ---
