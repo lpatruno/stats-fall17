@@ -1,5 +1,21 @@
 ## Welcome to CISC 5420 - Applied Statistics & Probability!
 
+### Lecture 6
+---
+Our class this week was on modeling empirical distributions with analytic distributions. Analytic distributions are characterized by a cumulative distribution function that is a mathematical function. Modeling empirical data with analytic distributions is useful if the models capture relevant aspects of the real world and leave out unneccessary details such as measurement error or specific quirks from a sample. Models also act as a form of data compression, allowing us to summarize large amounts of data with a small set of parameters.
+
+We spoke specifically about the [exponential](https://en.wikipedia.org/wiki/Exponential_distribution), [normal](https://en.wikipedia.org/wiki/Normal_distribution), [lognormal](https://en.wikipedia.org/wiki/Log-normal_distribution), and [pareto](https://en.wikipedia.org/wiki/Pareto_distribution) distributions. I would highly recommend reading through the links provided to get a better understanding of the types of real-world phenomena that these distributions model. We also spoke about the types of transformations and plots we can create to determine whether or not these distributions fit out data well. For instance, to determine if data can be approximated by a normal distribution, we plot a normal probability plot and examine whether the plot is linear.
+
+Your homework assignment for next class is as follows:
+
+  1. Read Ch. 6 of ThinkStats2. This chapter is on probability density functions, which describes the relative likelihood for a continuous variable to take on a given value. This chapter ties together the previously seen concepts of probability mass functions (PMFs) and cumulative distribution functions (CDFs) and concludes the introductory material of the class. Running through the code is not optional. It is a mandatory part of the assignment.
+  
+  2. Keep working on your midterm projects. They're due in 2 weeks on October 24th!
+  
+  3. A student mentioned the concept of the [bootstrap](https://en.wikipedia.org/wiki/Bootstrapping_(statistics)) in class yesterday. Bootstrapping is a method for estimating some property of an estimator by measuring those properties from some approximating distribution, often times the empirical distribution. Essentially, we resample the empirical distribution with replacement and compute some statistic, such as the variance. We will learn much more about estimation in chapter 8 of the text.
+
+As always, email me with any questions!
+
 ### Lecture 5
 ---
 This week we focused on Cumulative Distribution Functions - functions that map from values to percentiles. First, we noted that we run into issues when plotting histograms for variables that contain many different values. Namely, histograms will be hard to interpret because it will be difficult to see the overall pattern. One way of getting around this is to discretize or *bin* our data. However, we are then tasked with picking appropriate bin sizes, which is not trivial. In order to pick bin sizes, data analysts typically try a range of bin sizes through trial-and-error (we mentioned more [principled techniques](http://docs.astropy.org/en/stable/visualization/histogram.html) in class).
