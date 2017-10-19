@@ -1,5 +1,15 @@
 ## Welcome to CISC 5420 - Applied Statistics & Probability!
 
+### Lecture 7
+---
+This week we concluded the first half of our semester by discussing probability density functions and kernel density estimation. Probability Density Functions, or PDFs, allow us to define probability distributions for continuous random variables. The PDF is the derivative of the Cumulative Distribution Function. Evaluating the PDF at a particular point does not give us the probability of that value occuring; rather, it gives us a probability density. In order to compute a probability, we need to integrate the PDF over some range i.e. compute the area underneath the curve. We showed in class how probability mass functions, cumulative distribution functions, and probability density functions are all related.
+
+We also discussed kernel density estimation (KDE). KDE is a nonparametric way of computing a smooth distribution that fits a finite sample of data. This is useful for visualization, interpolation, and simulation, and an alternative method to model data.
+
+Your homework assignment for next class is as follows:
+
+  1. Your midterm projects are due by next class! Please see the directions [here]((midterm_rubric.pdf) to remind yourself of what is expected. Be prepared to discuss these projects in class with your classmates.
+
 ### Lecture 6
 ---
 Our class this week was on modeling empirical distributions with analytic distributions. Analytic distributions are characterized by a cumulative distribution function that is a mathematical function. Modeling empirical data with analytic distributions is useful if the models capture relevant aspects of the real world and leave out unneccessary details such as measurement error or specific quirks from a sample. Models also act as a form of data compression, allowing us to summarize large amounts of data with a small set of parameters.
