@@ -1,5 +1,9 @@
 ## Welcome to CISC 5420 - Applied Statistics & Probability!
 
+### Map Visualizations
+---
+Several students have asked about how to visualize geographic information by creating maps. Arguably the best tools for visualizaing geographic information are written in JavaScript. [D3](https://d3js.org/) is one of the finer tools for this and the author of the library has written a series of [tutorials](https://medium.com/@mbostock/command-line-cartography-part-1-897aa8f8ca2c) for creating beautiful maps. I encourage you to check them out!
+
 ### Lecture 7
 ---
 This week we concluded the first half of our semester by discussing probability density functions and kernel density estimation. Probability Density Functions, or PDFs, allow us to define probability distributions for continuous random variables. The PDF is the derivative of the Cumulative Distribution Function. Evaluating the PDF at a particular point does not give us the probability of that value occuring; rather, it gives us a probability density. In order to compute a probability, we need to integrate the PDF over some range i.e. compute the area underneath the curve. We showed in class how probability mass functions, cumulative distribution functions, and probability density functions are all related.
