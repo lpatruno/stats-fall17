@@ -12,7 +12,7 @@ We also discussed kernel density estimation (KDE). KDE is a nonparametric way of
 
 Your homework assignment for next class is as follows:
 
-  1. Your midterm projects are due by next class! Please see the directions [here]((midterm_rubric.pdf) to remind yourself of what is expected. Be prepared to discuss these projects in class with your classmates.
+  1. Your midterm projects are due by next class! Please see the directions [here](midterm_rubric.pdf) to remind yourself of what is expected. Be prepared to discuss these projects in class with your classmates.
 
 ### Lecture 6
 ---
