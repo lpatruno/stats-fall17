@@ -8,7 +8,7 @@ Your homework assignment for next class is as follows:
 
   1. Read Ch. 7 of ThinkStats2 and run through the code in the chapter. This chapter begins our foray into looking at relationships among different variables in your dataset. Although I won't ask you to hand this in, it's a good idea to begin applying these methods to your own datasets, even if you don't fully understand the concepts. We'll review the concepts more in class.
   
-  2. Check out this awesome [visual intro to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/). Amazing visualizations! This is a great example of using technology to improve education!
+  2. Check out this awesome [visual intro to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/). Amazing visualizations! This is a great example of using technology to improve education! Also, I just came across this awesome collection of [cheat sheets](https://medium.com/towards-data-science/collecting-data-science-cheat-sheets-d2cdff092855) for data analysis in Python. Definitely check these out! There are cheat sheets for pandas, amtplotlib, seaborn, and more. Great resource.
 
 ### Map Visualizations
 ---
