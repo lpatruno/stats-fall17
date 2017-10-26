@@ -1,5 +1,15 @@
 ## Welcome to CISC 5420 - Applied Statistics & Probability!
 
+### Lecture 8
+---
+This week we spent the class reviewing midterm project submissions. It was a great chance to learn from your peers, ask one another questions, and find out about difficulties encountered during your work. Nice job, everyone!
+
+Your homework assignment for next class is as follows:
+
+  1. Read Ch. 7 of ThinkStats2 and run through the code in the chapter. This chapter begins our foray into looking at relationships among different variables in your dataset. Although I won't ask you to hand this in, it's a good idea to begin applying these methods to your own datasets, even if you don't fully understand the concepts. We'll review the concepts more in class.
+  
+  2. Check out this awesome [visual intro to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/). Amazing visualizations! This is a great example of using technology to improve education! Also, I just came across this awesome collection of [cheat sheets](https://medium.com/towards-data-science/collecting-data-science-cheat-sheets-d2cdff092855) for data analysis in Python. Definitely check these out! There are cheat sheets for pandas, amtplotlib, seaborn, and more. Great resource.
+
 ### Map Visualizations
 ---
 Several students have asked about how to visualize geographic information by creating maps. Arguably the best tools for visualizaing geographic information are written in JavaScript. [D3](https://d3js.org/) is one of the finer tools for this and the author of the library has written a series of [tutorials](https://medium.com/@mbostock/command-line-cartography-part-1-897aa8f8ca2c) for creating beautiful maps. I encourage you to check them out!
@@ -12,7 +22,7 @@ We also discussed kernel density estimation (KDE). KDE is a nonparametric way of
 
 Your homework assignment for next class is as follows:
 
-  1. Your midterm projects are due by next class! Please see the directions [here]((midterm_rubric.pdf) to remind yourself of what is expected. Be prepared to discuss these projects in class with your classmates.
+  1. Your midterm projects are due by next class! Please see the directions [here](midterm_rubric.pdf) to remind yourself of what is expected. Be prepared to discuss these projects in class with your classmates.
 
 ### Lecture 6
 ---
