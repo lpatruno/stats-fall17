@@ -1,5 +1,14 @@
 ## Welcome to CISC 5420 - Applied Statistics & Probability!
 
+### Lecture 9
+---
+Our focus this week was on examining relationships between two variables. Scatter plots are visualizations used to examine the relationship between 2 numerical features. We spoke about ways of improving scatter plots when working with larger datasets and then discussed correlation statistics as ways of quantifying the strength of relationships between variables. Remember that Pearsons-moment correlation quantifies the strength of a **linear** relationship between variables. A correlation of 0 does not necessarily mean no relationship, but it does mean no linear relationship. We then spent a fair amount of time applying these concepts to the Austin bikeshare dataset. Here is that [notebook](https://github.com/lpatruno/stats-fall17/blob/master/notebooks/Lecture%209%20-%20Scatter%20Plots%20%26%20Correlation.ipynb).
+
+Your homework assignment for next class is as follows:
+
+  1. Read Ch. 8 of ThinkStats2 and run through the code in the chapter. This chapter is about estimation - the practice of estimating quantities that describe a population from finite samples. You'll encounter several extremely important concepts including standard error, sampling bias, confidence intervals, and sampling distributions.
+
+
 ### Lecture 8
 ---
 This week we spent the class reviewing midterm project submissions. It was a great chance to learn from your peers, ask one another questions, and find out about difficulties encountered during your work. Nice job, everyone!
