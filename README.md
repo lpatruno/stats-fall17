@@ -1,5 +1,9 @@
 ## Welcome to CISC 5420 - Applied Statistics & Probability!
 
+### Cool Kaggle Kernel
+---
+I just came across this awesome [kaggle kernel](https://www.kaggle.com/cdelany7/exploration-of-college-salaries-by-major#) analyzing some data about salaries by undergraduate major. The author does an awesome job of creating a cool visualization in steps. Check it out!
+
 ### Lecture 9
 ---
 Our focus this week was on examining relationships between two variables. Scatter plots are visualizations used to examine the relationship between 2 numerical features. We spoke about ways of improving scatter plots when working with larger datasets and then discussed correlation statistics as ways of quantifying the strength of relationships between variables. Remember that Pearsons-moment correlation quantifies the strength of a **linear** relationship between variables. A correlation of 0 does not necessarily mean no relationship, but it does mean no linear relationship. We then spent a fair amount of time applying these concepts to the Austin bikeshare dataset. Here is that [notebook](https://github.com/lpatruno/stats-fall17/blob/master/notebooks/Lecture%209%20-%20Scatter%20Plots%20%26%20Correlation.ipynb).
