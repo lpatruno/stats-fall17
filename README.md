@@ -1,5 +1,20 @@
 ## Welcome to CISC 5420 - Applied Statistics & Probability!
 
+### Lecture 10
+---
+This week we discussed estimation - the process of estimating a population paramater such as the mean from a finite sample of data. In particular, we noted that how you estimate a parameter depends on the particular circumstance. For example, if your data comes from a normal distribution, than the sample mean is the best unbiased estimator, that is, it minimizes the [Mean Squared Error](https://en.wikipedia.org/wiki/Mean_squared_error). We also discussed [Maximum Likelihood Estimation](https://en.wikipedia.org/wiki/Maximum_likelihood_estimation)(MLE) in depth. If we have a fixed dataset and statistical model, MLE selects the parameters that maximizes the likelihood function, i.e. maximizes the chance of observing the given data. We showed that 1/mean(x), (where mean(x) is the sample mean) is the MLE of the parameter lambda for the exponential distribution.
+
+[Bias](https://en.wikipedia.org/wiki/Bias_of_an_estimator) is the difference between an estimator's *expected value* (i.e. average) and the true value of a parameter. An estimator with zero bias is *unbiased*. We showed computationally that the sample mean is an unbiased estimator of a Gaussian distribution.
+
+Your homework assignment for next class is as follows:
+
+  1. Read Ch. 9 and 10 of ThinkStats2 and run through the code in the chapter. These chapters discuss hypothesis testing and single linear regression - both very important topics. In particular, hypothesis testing is used to determine whether observed statistical differences, such as the observed mean difference in birth lengths between first babies and others, can be attributed to random chance. You will be asked to perform at least 2 hypothesis tests in your final projects so please read this chapter carefully.
+  
+  2. Check out [gmaps](https://github.com/pbugnion/gmaps), a Python package for plotting geographical data on Google Maps in the Jupyter notebook.
+  
+  3. We will not have class next week. Instead, we will make up lecture over a Skype lecture that will be scheduled when we meet in 2 weeks.
+
+
 ### Cool Kaggle Kernel
 ---
 I just came across this awesome [kaggle kernel](https://www.kaggle.com/cdelany7/exploration-of-college-salaries-by-major#) analyzing some data about salaries by undergraduate major. The author does an awesome job of creating a cool visualization in steps. Check it out!
