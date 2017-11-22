@@ -1,5 +1,13 @@
 ## Welcome to CISC 5420 - Applied Statistics & Probability!
 
+### Lecture 11
+---
+This week we spoke about statistical hypothesis testing - the methodology by which we determine whether the effects we see in a sample of data are likely to appear in a larger population. In hypothesis testing, the main question we seek to answer is "Given a sample and an apparent effect, what is the probability of seeing such an effect by chance?" (quote from Downey, ThinkStats2). This question captures the essence of hypothesis testing very nicely. Our "apparent effect" is quantified via a **test statistic**, the "by chance" part is modeled by the **null hypothesis**, and the "probability of such an effect by chance" is our **p-value**. The higher that probability (ie a high p-value) the higher the probability that the effect is due to random chance and hence not true of the larger population. 
+
+Your homework assignment for next class is to read chapter 11 of ThinkStats2. Note, we will be covering chapter 10 on Linear Regression next week in class. We will cover chapter 11 next Saturday during our Skype class.
+
+Happy Thanksgiving!
+
 ### Lecture 10
 ---
 This week we discussed estimation - the process of estimating a population paramater such as the mean from a finite sample of data. In particular, we noted that how you estimate a parameter depends on the particular circumstance. For example, if your data comes from a normal distribution, than the sample mean is the best unbiased estimator, that is, it minimizes the [Mean Squared Error](https://en.wikipedia.org/wiki/Mean_squared_error). We also discussed [Maximum Likelihood Estimation](https://en.wikipedia.org/wiki/Maximum_likelihood_estimation)(MLE) in depth. If we have a fixed dataset and statistical model, MLE selects the parameters that maximizes the likelihood function, i.e. maximizes the chance of observing the given data. We showed that 1/mean(x), (where mean(x) is the sample mean) is the MLE of the parameter lambda for the exponential distribution.
