@@ -4,6 +4,8 @@
 ---
 I came across an interesting dataset on home prices while reading this interesting New York Times article, [How much income do you need to buy a home?](https://www.nytimes.com/2017/11/23/realestate/how-much-income-do-you-need-to-buy-a-home.html?action=click&pgtype=Homepage&clickSource=story-heading&module=real-estate-left-region&region=real-estate-left-region&WT.nav=real-estate-left-region). The dataset from hsh.com shows the annual income one needs to be able to afford a home in one of America's 50 most populous cities. Check out the article and dataset [here](https://www.hsh.com/finance/mortgage/salary-home-buying-25-cities.html#_).
 
+Let's talk about this information in class on Tuesday!
+
 ### Lecture 11
 ---
 This week we spoke about statistical hypothesis testing - the methodology by which we determine whether the effects we see in a sample of data are likely to appear in a larger population. In hypothesis testing, the main question we seek to answer is "Given a sample and an apparent effect, what is the probability of seeing such an effect by chance?" (quote from Downey, ThinkStats2). This question captures the essence of hypothesis testing very nicely. Our "apparent effect" is quantified via a **test statistic**, the "by chance" part is modeled by the **null hypothesis**, and the "probability of such an effect by chance" is our **p-value**. The higher that probability (ie a high p-value) the higher the probability that the effect is due to random chance and hence not true of the larger population. 
