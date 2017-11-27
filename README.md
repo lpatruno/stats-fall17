@@ -1,5 +1,38 @@
 ## Welcome to CISC 5420 - Applied Statistics & Probability!
 
+### Interesting Dataset
+---
+I came across an interesting dataset on home prices while reading this interesting New York Times article, [How much income do you need to buy a home?](https://www.nytimes.com/2017/11/23/realestate/how-much-income-do-you-need-to-buy-a-home.html?action=click&pgtype=Homepage&clickSource=story-heading&module=real-estate-left-region&region=real-estate-left-region&WT.nav=real-estate-left-region). The dataset from hsh.com shows the annual income one needs to be able to afford a home in one of America's 50 most populous cities. Check out the article and dataset [here](https://www.hsh.com/finance/mortgage/salary-home-buying-25-cities.html#_).
+
+Let's talk about this information in class on Tuesday!
+
+### Lecture 11
+---
+This week we spoke about statistical hypothesis testing - the methodology by which we determine whether the effects we see in a sample of data are likely to appear in a larger population. In hypothesis testing, the main question we seek to answer is "Given a sample and an apparent effect, what is the probability of seeing such an effect by chance?" (quote from Downey, ThinkStats2). This question captures the essence of hypothesis testing very nicely. Our "apparent effect" is quantified via a **test statistic**, the "by chance" part is modeled by the **null hypothesis**, and the "probability of such an effect by chance" is our **p-value**. The higher that probability (ie a high p-value) the higher the probability that the effect is due to random chance and hence not true of the larger population. 
+
+Your homework assignment for next class is to read chapter 11 of ThinkStats2. Note, we will be covering chapter 10 on Linear Regression next week in class. We will cover chapter 11 next Saturday during our Skype class.
+
+Happy Thanksgiving!
+
+### Lecture 10
+---
+This week we discussed estimation - the process of estimating a population paramater such as the mean from a finite sample of data. In particular, we noted that how you estimate a parameter depends on the particular circumstance. For example, if your data comes from a normal distribution, than the sample mean is the best unbiased estimator, that is, it minimizes the [Mean Squared Error](https://en.wikipedia.org/wiki/Mean_squared_error). We also discussed [Maximum Likelihood Estimation](https://en.wikipedia.org/wiki/Maximum_likelihood_estimation)(MLE) in depth. If we have a fixed dataset and statistical model, MLE selects the parameters that maximizes the likelihood function, i.e. maximizes the chance of observing the given data. We showed that 1/mean(x), (where mean(x) is the sample mean) is the MLE of the parameter lambda for the exponential distribution.
+
+[Bias](https://en.wikipedia.org/wiki/Bias_of_an_estimator) is the difference between an estimator's *expected value* (i.e. average) and the true value of a parameter. An estimator with zero bias is *unbiased*. We showed computationally that the sample mean is an unbiased estimator of a Gaussian distribution.
+
+Your homework assignment for next class is as follows:
+
+  1. Read Ch. 9 and 10 of ThinkStats2 and run through the code in the chapter. These chapters discuss hypothesis testing and single linear regression - both very important topics. In particular, hypothesis testing is used to determine whether observed statistical differences, such as the observed mean difference in birth lengths between first babies and others, can be attributed to random chance. You will be asked to perform at least 2 hypothesis tests in your final projects so please read this chapter carefully.
+  
+  2. Check out [gmaps](https://github.com/pbugnion/gmaps), a Python package for plotting geographical data on Google Maps in the Jupyter notebook.
+  
+  3. We will not have class next week. Instead, we will make up lecture over a Skype lecture that will be scheduled when we meet in 2 weeks.
+
+
+### Cool Kaggle Kernel
+---
+I just came across this awesome [kaggle kernel](https://www.kaggle.com/cdelany7/exploration-of-college-salaries-by-major#) analyzing some data about salaries by undergraduate major. The author does an awesome job of creating a cool visualization in steps. Check it out!
+
 ### Lecture 9
 ---
 Our focus this week was on examining relationships between two variables. Scatter plots are visualizations used to examine the relationship between 2 numerical features. We spoke about ways of improving scatter plots when working with larger datasets and then discussed correlation statistics as ways of quantifying the strength of relationships between variables. Remember that Pearsons-moment correlation quantifies the strength of a **linear** relationship between variables. A correlation of 0 does not necessarily mean no relationship, but it does mean no linear relationship. We then spent a fair amount of time applying these concepts to the Austin bikeshare dataset. Here is that [notebook](https://github.com/lpatruno/stats-fall17/blob/master/notebooks/Lecture%209%20-%20Scatter%20Plots%20%26%20Correlation.ipynb).
