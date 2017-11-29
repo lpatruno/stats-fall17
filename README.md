@@ -12,7 +12,8 @@ Another neat way to fit a line to data is to use a [Theil-Sen estimator](https:/
 
 Your homework assignment for next class is as follows:
 
-  1. Read Chapter 11 on Regression.
+  1. Reread Chapter 11 on Regression. We will discuss this in our Skype class on Sunday.
+  2. Read Chapter 12 on Time series analysis. This is an incredibly fascinating topic, especially as timeseries data is so prevalent. Time series analysis requires a different set of tools than tools than does traditional non time series analysis because data is correlated in time i.e. the data leading up to a particular point in time tell us something about the data after that point in time.
 
 
 ### Interesting Dataset
