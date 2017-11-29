@@ -1,5 +1,20 @@
 ## Welcome to CISC 5420 - Applied Statistics & Probability!
 
+### Lecture 12
+---
+Our discussion this week was about linear least squares fit a.k.a simple linear regression. In simple linear regression, we model a relationship between two variables as a linear function and estimate the parameters of that line - the slope and intercept - by minimizing the sum of squared errors. Why is minimizing the sum of squared errors a good thing to do? For one, it treats positive and negative errors - i.e. residuals - the same way. If we simply added the errors, the positive and negative errors would cancel one another out. Squaring penalizes larger residuals. Theoretically, the least squares fit is also the maximum likelihood estimator if our residuals are uncorrelated and normally distributed with mean 0 and constant (but unknown) variance.
+
+Since our parameters are estimated from samples of data, they're affected by sampling bias, sampling error, and measurement error. To quantify this uncertainty, we can simulate repeated experiments by resampling our data with replacement and computing statistics on the sampling distributions. Finally, we can check to measure whether the linear relationships are statistically significant by running hypothesis tests where we use the coefficient of determination or the slope as our test statistic.
+
+In order to assess the goodness of fit - a measure of how well the model fits our data - we compute the [coefficient of determination](https://en.wikipedia.org/wiki/Coefficient_of_determination), which measures how much variance in the data our model explains. See this [blog](http://blog.minitab.com/blog/adventures-in-statistics-2/regression-analysis-how-do-i-interpret-r-squared-and-assess-the-goodness-of-fit) post for another explanation of the coefficient of determination.
+
+Another neat way to fit a line to data is to use a [Theil-Sen estimator](https://en.wikipedia.org/wiki/Theil%E2%80%93Sen_estimator) a non-parametric way to fit a line through a sample of points. This method is implemented in the [scipy](https://docs.scipy.org/doc/scipy-0.15.1/reference/generated/scipy.stats.mstats.theilslopes.html) library.
+
+Your homework assignment for next class is as follows:
+
+  1. Read Chapter 11 on Regression.
+
+
 ### Interesting Dataset
 ---
 I came across an interesting dataset on home prices while reading this interesting New York Times article, [How much income do you need to buy a home?](https://www.nytimes.com/2017/11/23/realestate/how-much-income-do-you-need-to-buy-a-home.html?action=click&pgtype=Homepage&clickSource=story-heading&module=real-estate-left-region&region=real-estate-left-region&WT.nav=real-estate-left-region). The dataset from hsh.com shows the annual income one needs to be able to afford a home in one of America's 50 most populous cities. Check out the article and dataset [here](https://www.hsh.com/finance/mortgage/salary-home-buying-25-cities.html#_).
