@@ -1,5 +1,9 @@
 ## Welcome to CISC 5420 - Applied Statistics & Probability!
 
+### Twitter Article
+---
+Check out this cool [article](https://blog.twitter.com/engineering/en_us/topics/insights/2017/Our-Discovery-of-Cramming.html?imm_mid=0f88ea&cmp=em-data-na-na-newsltr_20171129) from the data scientists at Twitter. Twitter wanted to determine whether they should increase the length of tweets from 140 characters and how that should differ by language. After collecting billions of tweets in different languages, they found that the length distributions follow a log-normal distribution.
+
 ### Lecture 12
 ---
 Our discussion this week was about linear least squares fit a.k.a simple linear regression. In simple linear regression, we model a relationship between two variables as a linear function and estimate the parameters of that line - the slope and intercept - by minimizing the sum of squared errors. Why is minimizing the sum of squared errors a good thing to do? For one, it treats positive and negative errors - i.e. residuals - the same way. If we simply added the errors, the positive and negative errors would cancel one another out. Squaring penalizes larger residuals. Theoretically, the least squares fit is also the maximum likelihood estimator if our residuals are uncorrelated and normally distributed with mean 0 and constant (but unknown) variance.
