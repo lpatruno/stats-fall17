@@ -1,5 +1,13 @@
 ## Welcome to CISC 5420 - Applied Statistics & Probability!
 
+### Lecture 13
+---
+Our class discussion today focused on linear regression and logistic regression as implemented in the Python [StatsModels](http://www.statsmodels.org/stable/index.html) library. The methods and objects in this library allow us to easily and quickly fit regression models to data and summarize results. For example, we can fit a multiple regression model and view model summary statistics including the coefficient of determination and p-valuies for each of the slopes. We discussed our linear regression can be used for explanatory purposes by controlling for the effects of certain variables and analyzing how the linear regression parameters for features vary. The data mining approach focuses on predictive power - in the regression case, we seek the model that achieves the highest R^2 value while in the classification case we look for the model that achieves the highest accuracy.
+
+Your homework assignment for next class is as follows:
+
+  1. Read Chapter 12 on Time series analysis and run through the code in the chapter.
+
 ### Twitter Article
 ---
 Check out this cool [article](https://blog.twitter.com/engineering/en_us/topics/insights/2017/Our-Discovery-of-Cramming.html?imm_mid=0f88ea&cmp=em-data-na-na-newsltr_20171129) from the data scientists at Twitter. Twitter wanted to determine whether they should increase the length of tweets from 140 characters and how that should differ by language. After collecting billions of tweets in different languages, they found that the length distributions follow a log-normal distribution.
