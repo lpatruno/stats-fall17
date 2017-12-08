@@ -1,8 +1,32 @@
 ## Welcome to CISC 5420 - Applied Statistics & Probability!
 
+### Lecture 14
+---
+This week we introduced Time Series Analysis. A time series is a sequence of measurements from a system that varies in time. The techniques used to analyze time series are different from the other techniques we've reviewed this semester for several reasons, particularly when it comes to modeling data.
+
+  1. Values that vary in time typically do so in unpredictable ways. Hence, there is no reason to expect a long-term trend to be a line (as in linear regression) or any other simple sort of function. For example, prices of goods are affected by supply and demand, which varies over time.
+  
+  2. For purposes of prediction, we should probably give more weight to data that is closer in time. It doesn't make as much sense to equally weigh all data.
+  
+  3. With time series data, successive values are often correlated in time. For instance, if the prices of a stock is high on a day, we expect it to remain fairly high the subsequent day.
+  
+Much of time series analysis is based on the assumption that observed data can be decomposed into three components.
+
+  1. **Trend**: Some smooth function that captures persistent changes.
+  
+  2. **Seasonality**: Periodic variation that could come in cycles of days, weeks, months, or years.
+  
+  3. **Random noise**: A random variation around the long-term trend.
+  
+We looked at various methods of modeling trends, including the rolling mean and exponentially moving average, how to calculate the autocorrelation function, and [decomposing time series into the sum of its three components](https://machinelearningmastery.com/decompose-time-series-data-trend-seasonality/).
+
+Your homework assignment for next class is as follows:
+
+  1. Read Chapter 13 on Survival Analysis and run through the code in the chapter.
+
 ### Lecture 13
 ---
-Our class discussion today focused on linear regression and logistic regression as implemented in the Python [StatsModels](http://www.statsmodels.org/stable/index.html) library. The methods and objects in this library allow us to easily and quickly fit regression models to data and summarize results. For example, we can fit a multiple regression model and view model summary statistics including the coefficient of determination and p-valuies for each of the slopes. We discussed our linear regression can be used for explanatory purposes by controlling for the effects of certain variables and analyzing how the linear regression parameters for features vary. The data mining approach focuses on predictive power - in the regression case, we seek the model that achieves the highest R^2 value while in the classification case we look for the model that achieves the highest accuracy.
+Our class discussion today focused on linear regression and logistic regression as implemented in the Python [StatsModels](http://www.statsmodels.org/stable/index.html) library. The methods and objects in this library allow us to easily and quickly fit regression models to data and summarize results. For example, we can fit a multiple regression model and view model summary statistics including the coefficient of determination and p-values for each of the slopes. We discussed our linear regression can be used for explanatory purposes by controlling for the effects of certain variables and analyzing how the linear regression parameters for features vary. The data mining approach focuses on predictive power - in the regression case, we seek the model that achieves the highest R^2 value while in the classification case we look for the model that achieves the highest accuracy.
 
 Your homework assignment for next class is as follows:
 
