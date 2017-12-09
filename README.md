@@ -1,5 +1,9 @@
 ## Welcome to CISC 5420 - Applied Statistics & Probability!
 
+### Python Data Science Handbook by Jake VanderPlas
+---
+I came across an incredible resource for learning more about Python, Data Science, and Machine Learning. The [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook) is written by Jake VanderPlas, an astronomist and leading figure in the Python Data Science community. The book contains chapters on NumPy, pandas, matplotlib, seaborn, and Scikit-learn. The book is available for free online in the form of Jupyter notebook. Really amazing stuff!
+
 ### Lecture 14
 ---
 This week we introduced Time Series Analysis. A time series is a sequence of measurements from a system that varies in time. The techniques used to analyze time series are different from the other techniques we've reviewed this semester for several reasons, particularly when it comes to modeling data.
